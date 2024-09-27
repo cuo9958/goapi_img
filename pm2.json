@@ -1,0 +1,13 @@
+{
+    "apps": [
+        {
+            "name": "goapi_img@8089",
+            "script": "src/index.js",
+            "args": [],
+            "env": {
+                "PORT": "8089",
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}
