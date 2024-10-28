@@ -58,6 +58,11 @@ app.get('/mj/:name', async (req, res) => {
     }
 });
 
+app.get('/feishu', async (req, res) => {
+    console.log(req.url);
+    console.log(req.query);
+    res.json({ code: 1, data: {} });
+});
 const PORT = process.env.PORT || 8089;
 // 启动服务器
 app.listen(PORT, () => {
